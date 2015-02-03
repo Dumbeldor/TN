@@ -1,0 +1,268 @@
+@charset "utf-8";
+@font-face {
+        font-family: "TNFont1";
+        src: url('../fonts/crusades-webfont.eot');
+        src: url('../fonts/crusades-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/crusades-webfont.svg#TNFont1') format('svg'),
+        url('../fonts/crusades-webfont.woff') format('woff'),
+        url('../fonts/crusades-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {font-family: TNFont2; src: url('../fonts/AquilineTwo.ttf'), url('../fonts/AquilineTwo.eot'); /* IE9 */}
+@font-face {font-family: TNFont3; src: url('../fonts/MyriadPro-Regular.otf'), url('../fonts/MyriadPro-Regular.eot'); /* IE9 */}
+
+.TN {
+	font-family:"TNFont1";
+	font-size:20px
+}
+
+body {
+margin: 0px;
+border: none;
+padding: 0px;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #98795c url(../img/background1.jpg) no-repeat 50% top;
+}
+
+#wrapperGen {
+	width:920px;
+	min-height:300px;
+	margin:175px auto 0;
+
+}
+
+#Wrapper {
+	display:inline-block;
+}
+
+#colLeft {
+	float:left;
+	background:url(../img/cadre-left.png);
+	background-repeat:no-repeat;
+	width:381px;
+	height:651px;
+	font-family:"TNFont1";
+	margin-right:20px;
+}
+
+#colLeft form#connex {
+	margin-top:105px;
+}
+
+#colLeft form#inscript {
+	margin-top:130px;
+}
+
+#colLeft form#inscript table {
+	margin-left:15px;
+}
+
+.input {
+	background:url(../img/field.png) no-repeat;
+	width:140px;
+	height:25px;
+	padding-left:5px;
+	padding-right:5px;
+	color:#dbc097;
+	border:0;
+	font-weight:bold;
+	outline:0
+}
+
+.input2 {
+	background:url(../game/img/fond-input.png) no-repeat;
+	width:71px;
+	height:49px
+}
+
+.submit {
+	background:url(../img/bt-connex.png) no-repeat;
+	width:140px;
+	height:27px;
+	font-family:"Comic Sans MS", cursive;
+	color:#fff;
+	font-weight:bold;
+	border:none;
+	cursor:pointer
+}
+
+.submit:hover {
+	background-position:-140px;
+}
+
+.submit2 {
+	background:url(../img/bt-inscr.gif) no-repeat;
+	width:218px;
+	height:32px;
+	border:none;
+	cursor:pointer
+}
+
+.smallink {
+	font-size:18px
+}
+
+.smallink a {
+	font-size:18px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#9d8a8a
+}
+
+.smallink a:hover {
+}
+
+.oubli-pass a{
+	float:right;
+	margin-right:38px;
+	background:url(../img/pass-oublie.png) no-repeat;
+	width:24px;
+	height:28px;
+	border:none;
+	display:block;
+}
+
+.oubli-pass a:hover {
+	background-position:-24px;
+}
+
+.fond-lien {
+	float:left;
+	background:url(../img/fond-lien.jpg) no-repeat;
+	width:112px;
+	height:25px;
+	display:block;
+	margin-right:10px;
+	text-align:center;
+	padding-top:3px;
+	font-family:"TNFont3"
+}
+
+.modulepass{
+	font-size:18px;
+	font-weight:100;
+	color:#3d2f27
+}
+
+.ml{
+	margin-left:90px
+}
+
+.ml35{
+	margin-left:35px
+}
+
+div#gridMiddle {
+	float:left;
+	width:5px;
+	height:660px;
+	text-align:left;
+}
+
+div#gridRight{
+	float:left;
+	width:510px;
+	text-align:left;
+	margin-top:35px;
+}
+
+div#gridRight1 {
+	background:url(../img/nbr-joueur.png) no-repeat;
+	width:206px;
+	height:29px;
+	text-align:right;
+	color:#FC9;
+	font-family:"Comic Sans MS", cursive;
+	padding-top:8px;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:14px;
+}
+
+div#gridRight2 {
+	background:url(../img/cadre-video.png) no-repeat;
+	width:499px;
+	height:303px;
+	text-align:left;
+	color:#FC9;
+	font-family:"Comic Sans MS", cursive;
+	padding-top:15px;
+	padding-left:15px;
+}
+
+div#gridRight3 {
+	background:url(../img/cadre-screen.png) no-repeat;
+	width:478px;
+	height:160px;
+	text-align:left;
+	color:#FC9;
+	font-family:"TNFont1";
+	font-size:18px;
+	padding-top:20px;
+	padding-left:31px;
+	font-weight:normal;
+}
+
+.size{
+	width:476px;
+	height:280px;
+	background-color:#000
+}
+
+div#news{
+	margin-top:55px;
+	margin-left:30px;
+	font-family:"TNFont1";
+}
+
+div#text {
+	font-family:'Comic Sans MS', cursive;
+	color:#F00;
+	font-size:10px;
+	margin-left:45px;
+	width:350px;
+}
+
+.bt_accepter {
+	background:url(../img/bt_accept.png) no-repeat;
+	width:50px;
+	height:21px;
+	border:none;
+}
+
+.bt_annuler {
+	background:url(../img/bt_annul.png) no-repeat;
+	width:50px;
+	height:21px;
+	border:none;
+}
+
+footer {
+	background:url(../img/foot.png) no-repeat center;
+	width:661px;
+	height:81px;
+	color:#dbc097;
+	margin-left:48px;
+	margin-top:-26px;
+	display:inline-block;
+	padding-top:45px;
+	text-align:center;
+	padding-left:150px;
+}
+
+.fond-lien {
+	float:left;
+	background:url(../img/fond-lien.png) no-repeat;
+	width:120px;
+	height:32px;
+	padding-top:12px;
+	display:block;
+	margin-right:10px;
+	text-align:center;
+	font-family:"TNFont3";
+}
